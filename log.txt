@@ -1,0 +1,1176 @@
+2022-11-11 00:01:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:01:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:01:35,439 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:01:35,439 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:01:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:01:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:01:35,439 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:01:37,140 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:01:37,140 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:01:37,140 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:01:37,389 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:01:37,888 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:01:41,991 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030xB355875A-37C7-46DE-8853-33E6A33ED0B9, path: [C:\UTM\transporter\bin\..\xml\ws\030xB355875A-37C7-46DE-8853-33E6A33ED0B9]
+2022-11-11 00:01:41,991 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [ba5f92c7-adbf-4aef-9775-396cc7dc223b] FileId: [030xB355875A-37C7-46DE-8853-33E6A33ED0B9]
+2022-11-11 00:01:42,241 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [ba5f92c7-adbf-4aef-9775-396cc7dc223b] FileId: [030xB355875A-37C7-46DE-8853-33E6A33ED0B9] сохранен в БД
+2022-11-11 00:01:43,395 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030x24C00634-7247-4A90-B1F0-8C37B5E6428E, path: [C:\UTM\transporter\bin\..\xml\ws\030x24C00634-7247-4A90-B1F0-8C37B5E6428E]
+2022-11-11 00:01:43,395 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [ba5f92c7-adbf-4aef-9775-396cc7dc223b] FileId: [030x24C00634-7247-4A90-B1F0-8C37B5E6428E]
+2022-11-11 00:01:43,426 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [ba5f92c7-adbf-4aef-9775-396cc7dc223b] FileId: [030x24C00634-7247-4A90-B1F0-8C37B5E6428E] сохранен в БД
+2022-11-11 00:01:44,128 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030xF43A3049-196D-4694-8F2E-BF04C571B6D5, path: [C:\UTM\transporter\bin\..\xml\ws\030xF43A3049-196D-4694-8F2E-BF04C571B6D5]
+2022-11-11 00:01:44,144 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [ba5f92c7-adbf-4aef-9775-396cc7dc223b] FileId: [030xF43A3049-196D-4694-8F2E-BF04C571B6D5]
+2022-11-11 00:01:44,175 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [ba5f92c7-adbf-4aef-9775-396cc7dc223b] FileId: [030xF43A3049-196D-4694-8F2E-BF04C571B6D5] сохранен в БД
+2022-11-11 00:01:44,784 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:01:45,969 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:01:45 в статусах [2]
+2022-11-11 00:01:45,969 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:01:45,969 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:01:45 в статусах [2]
+2022-11-11 00:01:45,969 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:01:45,969 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:01:46,250 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:03:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:03:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:03:35,434 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:03:35,434 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Публикация оптовых документов в кол-ве: 1
+2022-11-11 00:03:36,152 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:03:36,152 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:e4b151d0-060c-41d6-9cb8-bc35bcdd3d72 docType:proof
+2022-11-11 00:03:36,199 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:03:38,523 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Конец публикации оптовых документов
+2022-11-11 00:03:38,570 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:03:38,570 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:03:38,570 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:03:38,570 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:03:40,239 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:03:40,239 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:03:40,239 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:03:40,489 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:03:40,972 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:03:44,108 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBillAct_v4, fileId: 030x9543F6C7-A60B-463B-AA05-95F5034EE377, path: [C:\UTM\transporter\bin\..\xml\ws\030x9543F6C7-A60B-463B-AA05-95F5034EE377]
+2022-11-11 00:03:44,108 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x9543F6C7-A60B-463B-AA05-95F5034EE377]
+2022-11-11 00:03:44,170 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x9543F6C7-A60B-463B-AA05-95F5034EE377] сохранен в БД
+2022-11-11 00:03:44,763 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:03:45,964 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:03:45 в статусах [2]
+2022-11-11 00:03:45,964 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:03:45,964 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:03:45 в статусах [2]
+2022-11-11 00:03:45,964 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:03:45,964 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:03:46,245 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:05:35,445 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:05:35,445 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:05:35,445 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:05:35,445 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Публикация оптовых документов в кол-ве: 1
+2022-11-11 00:05:36,163 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:05:36,163 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:4c067afb-2e94-4e92-b499-9926bc05aa11 docType:proof
+2022-11-11 00:05:36,210 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:05:38,347 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Конец публикации оптовых документов
+2022-11-11 00:05:38,378 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:05:38,378 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:05:38,378 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:05:38,378 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:05:40,047 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:05:40,047 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:05:40,047 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:05:40,328 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:05:40,796 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:05:41,982 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:05:41 в статусах [2]
+2022-11-11 00:05:41,982 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:05:41,982 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:05:41 в статусах [2]
+2022-11-11 00:05:41,997 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:05:41,997 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:05:42,262 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:07:35,440 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:07:35,440 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:07:35,440 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:07:35,440 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:07:35,440 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:07:35,440 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:07:35,440 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:07:37,125 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:07:37,125 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:07:37,125 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:07:37,390 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:07:37,874 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:07:39,060 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:07:39 в статусах [2]
+2022-11-11 00:07:39,075 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:07:39,075 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:07:39 в статусах [2]
+2022-11-11 00:07:39,075 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:07:39,075 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:07:39,372 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:09:35,436 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:09:35,436 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:09:35,436 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:09:35,436 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:09:35,436 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:09:35,436 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:09:35,436 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:09:40,131 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:09:40,147 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:09:40,147 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:09:40,412 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:09:40,911 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:09:42,097 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:09:42 в статусах [2]
+2022-11-11 00:09:42,112 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:09:42,112 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:09:42 в статусах [2]
+2022-11-11 00:09:42,128 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:09:42,128 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:09:42,409 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:11:35,437 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:11:35,437 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:11:35,437 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:11:35,452 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Публикация оптовых документов в кол-ве: 27
+2022-11-11 00:11:37,465 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:11:37,465 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:62f23925-92cc-40a8-addd-a3b0dda0936b docType:WayBill_v4
+2022-11-11 00:11:37,543 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:11:42,971 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:11:42,971 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:becf46d5-cf74-4773-a617-f2850e7159cc docType:WayBill_v4
+2022-11-11 00:11:43,034 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:11:46,996 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:11:46,996 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:cf9875ea-781e-4ca1-9724-03bdfaeb4078 docType:WayBill_v4
+2022-11-11 00:11:47,059 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:11:51,161 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:11:51,161 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:697ff9f6-4a73-4741-9fdc-cc698aaec8a3 docType:WayBill_v4
+2022-11-11 00:11:51,208 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:11:55,139 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:11:55,139 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:53f2b3a3-7c13-4715-b2f7-eb5f8f88a6a3 docType:WayBill_v4
+2022-11-11 00:11:55,186 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:11:57,043 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:11:57,043 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:cd27d3a8-f874-4dad-9755-b19e09472f98 docType:WayBill_v4
+2022-11-11 00:11:57,089 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:00,568 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:00,568 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:c8096067-1e41-40e5-8393-3059f427c3ca docType:WayBill_v4
+2022-11-11 00:12:00,615 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:03,251 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:03,251 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:1c1a990d-6cdf-4377-90f4-3f18e6bb8d0e docType:WayBill_v4
+2022-11-11 00:12:03,298 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:06,247 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:06,247 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:0820dcb9-943f-4caf-81d6-9a45bca84489 docType:WayBill_v4
+2022-11-11 00:12:06,293 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:08,836 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:08,836 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:9b24a028-0d6c-423f-9fc7-38abff0a11ca docType:WayBill_v4
+2022-11-11 00:12:08,883 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:12,237 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:12,237 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:f12f671e-e95e-49bc-ad9f-33a5b4aa93ca docType:WayBill_v4
+2022-11-11 00:12:12,284 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:15,404 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:15,404 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:53df8980-9a9e-4786-b28c-0bd21966d846 docType:WayBill_v4
+2022-11-11 00:12:15,451 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:17,915 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:17,915 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:c8b9159c-28da-4d66-8e3b-0ebfe481a44a docType:WayBill_v4
+2022-11-11 00:12:17,947 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:19,366 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:19,366 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:8a4c5f25-6e43-4eba-aaa2-f1f34b406595 docType:WayBill_v4
+2022-11-11 00:12:19,397 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:23,687 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:23,687 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:951e6595-d551-4074-9268-639fa23d5f6b docType:WayBill_v4
+2022-11-11 00:12:23,734 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:27,182 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:27,182 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:757a08f4-f336-44ea-882c-e04c434d2723 docType:WayBill_v4
+2022-11-11 00:12:27,229 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:28,960 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:28,960 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:38a97ef0-d8b9-4fd6-91f3-62a31cacc6a4 docType:WayBill_v4
+2022-11-11 00:12:28,991 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:30,052 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:30,052 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:d853ab33-21a1-40d8-95e9-df25fda2c66a docType:WayBill_v4
+2022-11-11 00:12:30,099 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:34,654 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:34,654 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:a227ec33-0cf7-408b-84a0-f96312c68327 docType:WayBill_v4
+2022-11-11 00:12:34,701 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:36,963 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:36,963 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:b06bb405-5e0e-48c8-a21c-1b91ba745bee docType:WayBill_v4
+2022-11-11 00:12:37,010 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:40,520 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:40,551 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:ed81c8a7-713e-4c86-a0b8-2ea47f87a7d1 docType:WayBill_v4
+2022-11-11 00:12:40,598 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:43,655 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:43,655 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:b5fb607c-142d-46f3-9990-99c78b0ae846 docType:WayBill_v4
+2022-11-11 00:12:43,702 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:46,323 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:46,323 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:b2aab930-8109-4c68-acf9-2531ac1bc5bf docType:WayBill_v4
+2022-11-11 00:12:46,370 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:50,675 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:50,675 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:f0bcd0d3-9b76-435b-9e83-bffe4f062d67 docType:WayBill_v4
+2022-11-11 00:12:50,722 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:52,485 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:52,485 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:c72c283c-c1fc-4e99-aa99-06a2427d331f docType:WayBill_v4
+2022-11-11 00:12:52,516 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:56,089 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:56,089 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:6aa26df7-ca0a-4dee-b824-5dbabb7781b9 docType:WayBill_v4
+2022-11-11 00:12:56,120 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:12:58,351 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: WayBill_v4
+2022-11-11 00:12:58,351 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:6c56217e-929b-4db4-b27a-867c00cf6b16 docType:WayBill_v4
+2022-11-11 00:12:58,382 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:13:01,486 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Конец публикации оптовых документов
+2022-11-11 00:13:01,549 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:13:01,549 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:13:01,549 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:13:01,549 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:13:03,218 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:13:03,233 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:13:03,233 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:13:03,483 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:13:03,967 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:13:07,211 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:13:07,695 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:13:19,052 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:13:19,052 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:13:19 в статусах [2]
+2022-11-11 00:13:19,052 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:13:19,052 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:13:19 в статусах [2]
+2022-11-11 00:13:19,067 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:13:19,067 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:13:19,317 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:13:35,432 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:13:35,432 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:13:35,432 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:13:35,432 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Публикация оптовых документов в кол-ве: 3
+2022-11-11 00:13:36,149 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: ActWriteOff_v3
+2022-11-11 00:13:36,149 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:f7c21bf8-ad6f-47ac-900c-9134ec8a74ce docType:ActWriteOff_v3
+2022-11-11 00:13:36,181 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:13:39,878 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: ActWriteOff_v3
+2022-11-11 00:13:39,878 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:9e6ab226-d7a9-4a85-a1fe-8cd72c0fe0c4 docType:ActWriteOff_v3
+2022-11-11 00:13:39,925 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:13:43,887 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: ActWriteOff_v3
+2022-11-11 00:13:43,887 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:2d6451a8-f20b-4655-ab57-9c27e47c556a docType:ActWriteOff_v3
+2022-11-11 00:13:43,934 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:13:45,556 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Конец публикации оптовых документов
+2022-11-11 00:13:45,572 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:13:45,572 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:13:45,572 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:13:45,572 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:13:47,225 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:13:47,225 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:13:47,241 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:13:50,517 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:13:51,001 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:13:57,163 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:13:57,646 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:14:08,847 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:14:08,847 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:14:08 в статусах [2]
+2022-11-11 00:14:08,847 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:14:08,847 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:14:08 в статусах [2]
+2022-11-11 00:14:08,863 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:14:08,863 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:14:09,143 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:15:35,443 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:15:35,443 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:15:35,443 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:15:35,443 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:15:35,443 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:15:35,443 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:15:35,443 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:15:37,190 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:15:37,190 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:15:37,190 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:15:37,486 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:15:37,970 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:15:41,152 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:15:41,620 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:15:46,768 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: TTNHISTORYF2REG, fileId: 030x4DE69504-1F4A-41BD-BFAE-59F5C0D6AA71, path: [C:\UTM\transporter\bin\..\xml\ws\030x4DE69504-1F4A-41BD-BFAE-59F5C0D6AA71]
+2022-11-11 00:15:46,768 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x4DE69504-1F4A-41BD-BFAE-59F5C0D6AA71]
+2022-11-11 00:15:46,768 WARN  ru.centerinform.transport.validate.bloom.FilterDocBroker - Обработчик для типа TTNHISTORYF2REG не найден.
+2022-11-11 00:15:46,799 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x4DE69504-1F4A-41BD-BFAE-59F5C0D6AA71] сохранен в БД
+2022-11-11 00:15:46,971 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:15:46 в статусах [2]
+2022-11-11 00:15:46,971 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:15:46,987 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:15:46 в статусах [2]
+2022-11-11 00:15:46,987 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:15:46,987 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:15:47,267 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:17:35,438 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:17:35,438 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:17:35,438 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:17:35,438 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:17:35,438 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:17:35,438 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:17:35,438 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:17:37,185 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:17:37,185 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:17:37,185 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:17:37,466 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:17:37,965 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:17:39,135 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:17:39 в статусах [2]
+2022-11-11 00:17:39,151 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:17:39,151 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:17:39 в статусах [2]
+2022-11-11 00:17:39,151 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:17:39,151 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:17:39,447 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:18:38,540 INFO  org.springframework.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 6 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(6)-CONNECTED(6)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 90], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 8, completed tasks = 64799]
+2022-11-11 00:19:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:19:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:19:35,433 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:19:35,433 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:19:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:19:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:19:35,433 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:19:37,133 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:19:37,133 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:19:37,133 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:19:37,367 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:19:37,851 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:19:44,029 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:19:44,512 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:19:45,729 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:19:45 в статусах [2]
+2022-11-11 00:19:45,729 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:19:45,729 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:19:45 в статусах [2]
+2022-11-11 00:19:45,729 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:19:45,729 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:19:46,025 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:21:35,444 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:21:35,444 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:21:35,444 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:21:35,444 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:21:35,444 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:21:35,444 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:21:35,444 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:21:37,129 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:21:37,144 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:21:37,144 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:21:37,768 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:21:38,267 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:21:39,500 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:21:39 в статусах [2]
+2022-11-11 00:21:39,500 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:21:39,500 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:21:39 в статусах [2]
+2022-11-11 00:21:39,515 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:21:39,515 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:21:39,781 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:23:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:23:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:23:35,439 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:23:35,439 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:23:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:23:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:23:35,439 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:23:37,108 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:23:37,108 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:23:37,108 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:23:37,373 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:23:37,873 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:23:49,073 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:23:49,573 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:23:50,758 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:23:50 в статусах [2]
+2022-11-11 00:23:50,758 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:23:50,758 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:23:50 в статусах [2]
+2022-11-11 00:23:50,774 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:23:50,774 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:23:51,055 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:25:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:25:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:25:35,434 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:25:35,434 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:25:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:25:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:25:35,434 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:25:37,135 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:25:37,135 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:25:37,135 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:25:37,400 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:25:37,883 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:25:49,084 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:25:49,568 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:25:52,750 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:25:52,750 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:25:52 в статусах [2]
+2022-11-11 00:25:52,750 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:25:52,750 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:25:52 в статусах [2]
+2022-11-11 00:25:52,766 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:25:52,766 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:25:53,031 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:27:35,436 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:27:35,436 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:27:35,436 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:27:35,436 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:27:35,436 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:27:35,436 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:27:35,436 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:27:37,121 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:27:37,121 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:27:37,121 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:27:38,400 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:27:38,884 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:27:45,061 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:27:45,561 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:27:56,730 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:27:56,730 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:27:56 в статусах [2]
+2022-11-11 00:27:56,730 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:27:56,730 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:27:56 в статусах [2]
+2022-11-11 00:27:56,746 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:27:56,746 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:27:57,011 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:29:35,431 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:29:35,431 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:29:35,431 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:29:35,431 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:29:35,431 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:29:35,431 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:29:35,431 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:29:37,116 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:29:37,116 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:29:37,116 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:29:37,350 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:29:37,865 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:29:49,019 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:29:49,518 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:29:55,789 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBillAct_v4, fileId: 030x44055FAD-8745-4082-BE24-8F3ABFFDF51C, path: [C:\UTM\transporter\bin\..\xml\ws\030x44055FAD-8745-4082-BE24-8F3ABFFDF51C]
+2022-11-11 00:29:55,789 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x44055FAD-8745-4082-BE24-8F3ABFFDF51C]
+2022-11-11 00:29:55,867 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x44055FAD-8745-4082-BE24-8F3ABFFDF51C] сохранен в БД
+2022-11-11 00:29:55,977 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:29:55 в статусах [2]
+2022-11-11 00:29:55,977 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:29:55,977 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:29:55 в статусах [2]
+2022-11-11 00:29:55,992 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:29:55,992 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:29:56,273 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:31:35,442 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:31:35,442 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:31:35,442 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:31:35,442 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Публикация оптовых документов в кол-ве: 1
+2022-11-11 00:31:36,160 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:31:36,160 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:0db3b07f-3764-40b8-81e0-051b5d302bc5 docType:proof
+2022-11-11 00:31:36,222 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:31:39,451 ERROR ru.centerinform.transport.backbone.schedule.Publisher - Ошибка отправки оптового документа через веб-сервис
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.registerFile(Unknown Source)
+	at ru.centerinform.transport.ws.sender.service.WebServiceSender.a(WebServiceSender.java:219)
+	at ru.centerinform.transport.backbone.schedule.Publisher.a(Publisher.java:674)
+	at ru.centerinform.transport.backbone.schedule.Publisher.b(Publisher.java:640)
+	at ru.centerinform.transport.backbone.schedule.Publisher.b(Publisher.java:484)
+	at ru.centerinform.transport.backbone.schedule.Publisher.a(Publisher.java:1413)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1068)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:31:39,451 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:0db3b07f-3764-40b8-81e0-051b5d302bc5 docType:proof
+2022-11-11 00:31:39,514 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:31:42,400 ERROR ru.centerinform.transport.backbone.schedule.Publisher - Ошибка отправки оптового документа через веб-сервис
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.appendChunk(Unknown Source)
+	at ru.centerinform.transport.ws.sender.service.WebServiceSender.a(WebServiceSender.java:320)
+	at ru.centerinform.transport.ws.sender.service.WebServiceSender.a(WebServiceSender.java:226)
+	at ru.centerinform.transport.backbone.schedule.Publisher.a(Publisher.java:674)
+	at ru.centerinform.transport.backbone.schedule.Publisher.b(Publisher.java:640)
+	at ru.centerinform.transport.backbone.schedule.Publisher.b(Publisher.java:484)
+	at ru.centerinform.transport.backbone.schedule.Publisher.a(Publisher.java:1413)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1068)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:31:42,400 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:0db3b07f-3764-40b8-81e0-051b5d302bc5 docType:proof
+2022-11-11 00:31:42,478 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:31:43,305 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Конец публикации оптовых документов
+2022-11-11 00:31:43,320 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:31:43,320 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:31:43,320 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:31:43,320 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:31:45,005 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:31:45,005 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:31:45,005 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:31:45,255 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:31:45,754 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:31:48,905 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:31:49,389 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:31:50,590 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:31:50 в статусах [2]
+2022-11-11 00:31:50,590 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:31:50,590 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:31:50 в статусах [2]
+2022-11-11 00:31:50,605 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:31:50,605 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:31:50,871 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:33:35,437 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:33:35,437 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:33:35,437 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:33:35,437 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:33:35,437 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:33:35,437 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:33:35,437 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:33:37,107 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:33:37,122 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:33:37,122 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:33:37,372 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:33:37,871 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:33:39,057 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:33:39 в статусах [2]
+2022-11-11 00:33:39,057 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:33:39,057 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:33:39 в статусах [2]
+2022-11-11 00:33:39,057 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:33:39,057 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:33:39,337 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:35:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:35:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:35:35,433 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:35:35,433 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:35:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:35:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:35:35,433 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:35:37,102 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:35:37,102 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:35:37,102 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:35:37,367 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:35:37,851 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:35:41,033 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:35:41,517 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:35:44,715 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:35:44,715 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:35:44 в статусах [2]
+2022-11-11 00:35:44,715 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:35:44,715 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:35:44 в статусах [2]
+2022-11-11 00:35:44,715 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:35:44,715 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:35:44,995 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:37:35,443 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:37:35,443 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:37:35,443 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:37:35,443 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:37:35,443 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:37:35,443 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:37:35,443 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:37:37,128 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:37:37,128 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:37:37,128 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:37:37,378 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:37:37,893 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:37:49,047 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:37:49,530 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:37:50,731 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:37:50 в статусах [2]
+2022-11-11 00:37:50,731 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:37:50,731 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:37:50 в статусах [2]
+2022-11-11 00:37:50,747 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:37:50,747 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:37:51,028 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:39:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:39:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:39:35,439 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:39:35,439 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:39:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:39:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:39:35,439 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:39:37,108 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:39:37,123 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:39:37,123 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:39:37,357 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:39:37,857 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:39:39,027 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:39:39 в статусах [2]
+2022-11-11 00:39:39,027 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:39:39,042 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:39:39 в статусах [2]
+2022-11-11 00:39:39,042 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:39:39,042 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:39:39,323 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:41:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:41:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:41:35,434 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:41:35,434 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:41:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:41:35,434 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:41:35,434 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:41:37,103 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:41:37,103 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:41:37,103 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:41:37,353 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:41:37,836 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:41:49,006 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:41:49,489 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:41:52,672 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:41:52,672 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:41:52 в статусах [2]
+2022-11-11 00:41:52,672 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:41:52,672 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:41:52 в статусах [2]
+2022-11-11 00:41:52,687 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:41:52,687 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:41:52,953 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:43:35,445 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:43:35,445 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:43:35,445 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:43:35,460 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:43:35,460 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:43:35,460 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:43:35,460 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:43:37,145 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:43:37,145 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:43:37,145 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:43:37,441 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:43:37,941 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:43:49,282 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: TTNHISTORYF2REG, fileId: 030x1228129E-F924-4A31-AFB1-0E3C6FA498E8, path: [C:\UTM\transporter\bin\..\xml\ws\030x1228129E-F924-4A31-AFB1-0E3C6FA498E8]
+2022-11-11 00:43:49,282 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x1228129E-F924-4A31-AFB1-0E3C6FA498E8]
+2022-11-11 00:43:49,282 WARN  ru.centerinform.transport.validate.bloom.FilterDocBroker - Обработчик для типа TTNHISTORYF2REG не найден.
+2022-11-11 00:43:49,329 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x1228129E-F924-4A31-AFB1-0E3C6FA498E8] сохранен в БД
+2022-11-11 00:43:50,639 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030x900721DA-B8F7-4AE4-A105-7744B249B1B8, path: [C:\UTM\transporter\bin\..\xml\ws\030x900721DA-B8F7-4AE4-A105-7744B249B1B8]
+2022-11-11 00:43:50,639 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x900721DA-B8F7-4AE4-A105-7744B249B1B8]
+2022-11-11 00:43:50,701 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x900721DA-B8F7-4AE4-A105-7744B249B1B8] сохранен в БД
+2022-11-11 00:43:52,261 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBill_v4, fileId: 030xD90D7EAE-0A09-427B-8F29-A79D325FC436, path: [C:\UTM\transporter\bin\..\xml\ws\030xD90D7EAE-0A09-427B-8F29-A79D325FC436]
+2022-11-11 00:43:52,261 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030xD90D7EAE-0A09-427B-8F29-A79D325FC436]
+2022-11-11 00:43:52,511 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030xD90D7EAE-0A09-427B-8F29-A79D325FC436] сохранен в БД
+2022-11-11 00:43:53,556 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030x62EB1B90-E0AF-4C19-9B35-9E5A34718D70, path: [C:\UTM\transporter\bin\..\xml\ws\030x62EB1B90-E0AF-4C19-9B35-9E5A34718D70]
+2022-11-11 00:43:53,556 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x62EB1B90-E0AF-4C19-9B35-9E5A34718D70]
+2022-11-11 00:43:53,603 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x62EB1B90-E0AF-4C19-9B35-9E5A34718D70] сохранен в БД
+2022-11-11 00:43:55,085 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBill_v4, fileId: 030xADF2C67E-950D-479E-8055-0082FEEBD8C7, path: [C:\UTM\transporter\bin\..\xml\ws\030xADF2C67E-950D-479E-8055-0082FEEBD8C7]
+2022-11-11 00:43:55,085 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030xADF2C67E-950D-479E-8055-0082FEEBD8C7]
+2022-11-11 00:43:55,288 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030xADF2C67E-950D-479E-8055-0082FEEBD8C7] сохранен в БД
+2022-11-11 00:43:56,895 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030xF86FE22C-5D8D-47C4-AD27-35EF93DD0189, path: [C:\UTM\transporter\bin\..\xml\ws\030xF86FE22C-5D8D-47C4-AD27-35EF93DD0189]
+2022-11-11 00:43:56,895 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030xF86FE22C-5D8D-47C4-AD27-35EF93DD0189]
+2022-11-11 00:43:56,941 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030xF86FE22C-5D8D-47C4-AD27-35EF93DD0189] сохранен в БД
+2022-11-11 00:43:58,065 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: TTNHISTORYF2REG, fileId: 030x972DD8E3-B328-44B1-8F40-BC74160D88B0, path: [C:\UTM\transporter\bin\..\xml\ws\030x972DD8E3-B328-44B1-8F40-BC74160D88B0]
+2022-11-11 00:43:58,065 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x972DD8E3-B328-44B1-8F40-BC74160D88B0]
+2022-11-11 00:43:58,065 WARN  ru.centerinform.transport.validate.bloom.FilterDocBroker - Обработчик для типа TTNHISTORYF2REG не найден.
+2022-11-11 00:43:58,096 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x972DD8E3-B328-44B1-8F40-BC74160D88B0] сохранен в БД
+2022-11-11 00:43:59,094 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030xFE7D208E-F009-4CE8-BA41-5D42437BE1E5, path: [C:\UTM\transporter\bin\..\xml\ws\030xFE7D208E-F009-4CE8-BA41-5D42437BE1E5]
+2022-11-11 00:43:59,094 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030xFE7D208E-F009-4CE8-BA41-5D42437BE1E5]
+2022-11-11 00:43:59,141 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030xFE7D208E-F009-4CE8-BA41-5D42437BE1E5] сохранен в БД
+2022-11-11 00:44:00,935 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBill_v4, fileId: 030x05BD701D-33DC-4E8D-A6A3-ABFCF62BD452, path: [C:\UTM\transporter\bin\..\xml\ws\030x05BD701D-33DC-4E8D-A6A3-ABFCF62BD452]
+2022-11-11 00:44:00,935 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x05BD701D-33DC-4E8D-A6A3-ABFCF62BD452]
+2022-11-11 00:44:01,512 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x05BD701D-33DC-4E8D-A6A3-ABFCF62BD452] сохранен в БД
+2022-11-11 00:44:02,776 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: TTNHISTORYF2REG, fileId: 030x75136DDB-86DA-4067-91E3-9020D1E45354, path: [C:\UTM\transporter\bin\..\xml\ws\030x75136DDB-86DA-4067-91E3-9020D1E45354]
+2022-11-11 00:44:02,776 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x75136DDB-86DA-4067-91E3-9020D1E45354]
+2022-11-11 00:44:02,776 WARN  ru.centerinform.transport.validate.bloom.FilterDocBroker - Обработчик для типа TTNHISTORYF2REG не найден.
+2022-11-11 00:44:02,807 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x75136DDB-86DA-4067-91E3-9020D1E45354] сохранен в БД
+2022-11-11 00:44:03,930 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBill_v4, fileId: 030x48D4592E-D0AB-4A57-880F-260046F61D17, path: [C:\UTM\transporter\bin\..\xml\ws\030x48D4592E-D0AB-4A57-880F-260046F61D17]
+2022-11-11 00:44:03,930 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x48D4592E-D0AB-4A57-880F-260046F61D17]
+2022-11-11 00:44:04,305 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x48D4592E-D0AB-4A57-880F-260046F61D17] сохранен в БД
+2022-11-11 00:44:05,506 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: TTNHISTORYF2REG, fileId: 030x7FBF6A22-35BF-4437-BE74-9C96D0FAA046, path: [C:\UTM\transporter\bin\..\xml\ws\030x7FBF6A22-35BF-4437-BE74-9C96D0FAA046]
+2022-11-11 00:44:05,506 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x7FBF6A22-35BF-4437-BE74-9C96D0FAA046]
+2022-11-11 00:44:05,506 WARN  ru.centerinform.transport.validate.bloom.FilterDocBroker - Обработчик для типа TTNHISTORYF2REG не найден.
+2022-11-11 00:44:05,537 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x7FBF6A22-35BF-4437-BE74-9C96D0FAA046] сохранен в БД
+2022-11-11 00:44:06,801 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: TTNHISTORYF2REG, fileId: 030x9732A6EA-91F8-40E5-A33B-7018CE903510, path: [C:\UTM\transporter\bin\..\xml\ws\030x9732A6EA-91F8-40E5-A33B-7018CE903510]
+2022-11-11 00:44:06,801 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x9732A6EA-91F8-40E5-A33B-7018CE903510]
+2022-11-11 00:44:06,801 WARN  ru.centerinform.transport.validate.bloom.FilterDocBroker - Обработчик для типа TTNHISTORYF2REG не найден.
+2022-11-11 00:44:06,832 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x9732A6EA-91F8-40E5-A33B-7018CE903510] сохранен в БД
+2022-11-11 00:44:08,298 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBill_v4, fileId: 030x71F2017E-8EE2-4FB0-9105-E696824EDC43, path: [C:\UTM\transporter\bin\..\xml\ws\030x71F2017E-8EE2-4FB0-9105-E696824EDC43]
+2022-11-11 00:44:08,298 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x71F2017E-8EE2-4FB0-9105-E696824EDC43]
+2022-11-11 00:44:08,517 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x71F2017E-8EE2-4FB0-9105-E696824EDC43] сохранен в БД
+2022-11-11 00:44:10,872 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBill_v4, fileId: 030xB4561FD6-42E9-4E68-A41F-20626C4EE382, path: [C:\UTM\transporter\bin\..\xml\ws\030xB4561FD6-42E9-4E68-A41F-20626C4EE382]
+2022-11-11 00:44:10,872 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030xB4561FD6-42E9-4E68-A41F-20626C4EE382]
+2022-11-11 00:44:11,091 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030xB4561FD6-42E9-4E68-A41F-20626C4EE382] сохранен в БД
+2022-11-11 00:44:13,132 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030x86B2908A-23F9-4044-9CE5-885CF89069F7, path: [C:\UTM\transporter\bin\..\xml\ws\030x86B2908A-23F9-4044-9CE5-885CF89069F7]
+2022-11-11 00:44:13,132 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x86B2908A-23F9-4044-9CE5-885CF89069F7]
+2022-11-11 00:44:13,163 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x86B2908A-23F9-4044-9CE5-885CF89069F7] сохранен в БД
+2022-11-11 00:44:15,144 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBill_v4, fileId: 030xDB122D2A-1630-4EB9-952D-A4E87124BD6E, path: [C:\UTM\transporter\bin\..\xml\ws\030xDB122D2A-1630-4EB9-952D-A4E87124BD6E]
+2022-11-11 00:44:15,144 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030xDB122D2A-1630-4EB9-952D-A4E87124BD6E]
+2022-11-11 00:44:15,722 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030xDB122D2A-1630-4EB9-952D-A4E87124BD6E] сохранен в БД
+2022-11-11 00:44:16,938 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030x97A72391-8E59-4EE5-806D-21BC52EA13DD, path: [C:\UTM\transporter\bin\..\xml\ws\030x97A72391-8E59-4EE5-806D-21BC52EA13DD]
+2022-11-11 00:44:16,938 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x97A72391-8E59-4EE5-806D-21BC52EA13DD]
+2022-11-11 00:44:16,970 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x97A72391-8E59-4EE5-806D-21BC52EA13DD] сохранен в БД
+2022-11-11 00:44:19,778 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: WayBill_v4, fileId: 030x2397890D-96D2-4140-A089-7195BCC5E008, path: [C:\UTM\transporter\bin\..\xml\ws\030x2397890D-96D2-4140-A089-7195BCC5E008]
+2022-11-11 00:44:19,778 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x2397890D-96D2-4140-A089-7195BCC5E008]
+2022-11-11 00:44:19,996 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x2397890D-96D2-4140-A089-7195BCC5E008] сохранен в БД
+2022-11-11 00:44:22,274 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030x05FC9CD0-356B-4459-A77C-8DFAB7C1DDD2, path: [C:\UTM\transporter\bin\..\xml\ws\030x05FC9CD0-356B-4459-A77C-8DFAB7C1DDD2]
+2022-11-11 00:44:22,274 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x05FC9CD0-356B-4459-A77C-8DFAB7C1DDD2]
+2022-11-11 00:44:22,320 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x05FC9CD0-356B-4459-A77C-8DFAB7C1DDD2] сохранен в БД
+2022-11-11 00:44:23,584 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: TTNHISTORYF2REG, fileId: 030x2A4F72E8-A8B9-4070-9802-CE042E68F5E8, path: [C:\UTM\transporter\bin\..\xml\ws\030x2A4F72E8-A8B9-4070-9802-CE042E68F5E8]
+2022-11-11 00:44:23,584 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [] FileId: [030x2A4F72E8-A8B9-4070-9802-CE042E68F5E8]
+2022-11-11 00:44:23,584 WARN  ru.centerinform.transport.validate.bloom.FilterDocBroker - Обработчик для типа TTNHISTORYF2REG не найден.
+2022-11-11 00:44:23,600 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [] FileId: [030x2A4F72E8-A8B9-4070-9802-CE042E68F5E8] сохранен в БД
+2022-11-11 00:44:24,208 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:44:25,394 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:44:25 в статусах [2]
+2022-11-11 00:44:25,394 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:44:25,394 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:44:25 в статусах [2]
+2022-11-11 00:44:25,409 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:44:25,409 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:44:25,690 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:45:35,438 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:45:35,438 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:45:35,438 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:45:35,438 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Публикация оптовых документов в кол-ве: 15
+2022-11-11 00:45:36,171 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:36,171 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:e73d18b3-0734-44bb-951f-2f5bb41b83b1 docType:proof
+2022-11-11 00:45:36,233 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:39,088 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:39,088 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:b4502d9f-e2a4-44a9-af68-83705b2d23ee docType:proof
+2022-11-11 00:45:39,150 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:40,320 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:40,320 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:64ddd50f-baa3-4982-b638-f92543e0643f docType:proof
+2022-11-11 00:45:40,367 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:42,536 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:42,536 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:a94ee5fc-eafe-4bd7-8866-7b119e7e6673 docType:proof
+2022-11-11 00:45:42,582 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:44,158 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:44,158 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:96734bbb-97c6-4def-9f15-361c9259171b docType:proof
+2022-11-11 00:45:44,205 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:46,420 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:46,420 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:d28c0ba8-5724-4ee9-a023-a1130ca2d4ec docType:proof
+2022-11-11 00:45:46,467 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:47,559 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:47,559 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:f0ac2c3c-3ab2-418d-840e-91e11820e377 docType:proof
+2022-11-11 00:45:47,606 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:50,414 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:50,414 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:464f623f-7005-4bc3-8520-438e796faa4f docType:proof
+2022-11-11 00:45:50,460 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:52,114 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:52,114 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:83fb37a1-ed93-476b-94dd-3ffecd681fde docType:proof
+2022-11-11 00:45:52,161 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:54,392 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:54,392 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:ae7c0b44-f8de-43d9-9d21-fc206a0cce69 docType:proof
+2022-11-11 00:45:54,438 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:55,796 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:55,796 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:30cf1c7d-29c0-472e-a5d8-20441e061846 docType:proof
+2022-11-11 00:45:55,842 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:57,387 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:57,387 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:d87715e3-fb0a-4c93-a7f7-d08536c2b679 docType:proof
+2022-11-11 00:45:57,434 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:45:59,524 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:45:59,524 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:243aa4bd-e5bd-488a-ab9f-a20bfd87727e docType:proof
+2022-11-11 00:45:59,571 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:46:01,724 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:46:01,739 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:601ed64d-e56c-487d-a26a-7cfd7c8200dd docType:proof
+2022-11-11 00:46:01,770 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:46:03,752 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка документа через веб-сервис, Type: proof
+2022-11-11 00:46:03,752 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Отправка c uuid:1963fb46-b9d9-4b17-8717-49cde9eb9916 docType:proof
+2022-11-11 00:46:03,798 INFO  ru.centerinform.transport.ws.sender.service.WebServiceSender - Добавляем дополнительный заголовок к SOAP запросу [UTM-Version: 4.2.0b002456]
+2022-11-11 00:46:04,048 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Конец публикации оптовых документов
+2022-11-11 00:46:04,095 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:46:04,095 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:46:04,095 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:46:04,095 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:46:05,780 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:46:05,780 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:46:05,780 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:46:06,045 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:46:06,528 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:46:12,706 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:46:13,190 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:46:19,367 ERROR ru.centerinform.transport.backbone.schedule.Receiver - Ошибка при получении и чтении документов с сервера ЕГАИС
+com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: Документ отправлен на повторную обработку, действий со стороны пользователя не требуется. (7789) Please see the server log to find more detail regarding exact cause of the failure.
+	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
+	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
+	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy223.getFilesToDownload(Unknown Source)
+	at ru.centerinform.transport.backbone.schedule.Receiver.a(Receiver.java:1245)
+	at ru.centerinform.transport.backbone.schedule.WSExchangeJob.execute(WSExchangeJob.java:1085)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+2022-11-11 00:46:19,367 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:46:19 в статусах [2]
+2022-11-11 00:46:19,367 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:46:19,383 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:46:19 в статусах [2]
+2022-11-11 00:46:19,383 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:46:19,383 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:46:19,664 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:47:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:47:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:47:35,433 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:47:35,433 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:47:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:47:35,433 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:47:35,433 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:47:37,133 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:47:37,133 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:47:37,133 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:47:37,398 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:47:37,882 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:47:39,052 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:47:39 в статусах [2]
+2022-11-11 00:47:39,068 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:47:39,068 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:47:39 в статусах [2]
+2022-11-11 00:47:39,068 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:47:39,068 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:47:39,348 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:48:02,546 ERROR ru.centerinform.transport.backbone.schedule.SpUpdateJob - [Sp update] - Ошибка обновления настроек
+org.springframework.web.client.HttpClientErrorException$Forbidden: 403 Forbidden: [no body]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:109)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:818)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:710)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:333)
+	at ru.centerinform.transport.backbone.schedule.SpUpdateJob.a(SpUpdateJob.java:62)
+	at sun.reflect.GeneratedMethodAccessor2018.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-11-11 00:48:02,546 ERROR ru.centerinform.transport.backbone.schedule.XsdUpdateJob - [Xsd update] - Ошибка обновления xsd
+org.springframework.web.client.HttpClientErrorException$Forbidden: 403 Forbidden: [no body]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:109)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:125)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:818)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:710)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:333)
+	at ru.centerinform.transport.backbone.schedule.XsdUpdateJob.a(XsdUpdateJob.java:63)
+	at sun.reflect.GeneratedMethodAccessor2017.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-11-11 00:48:23,684 ERROR ru.centerinform.transport.util.f - Ответ от сервера [https://spaupdate-nd.utm.egais.ru:4443/wsspaupdate/update/010060694075] - code: [403], data: []
+2022-11-11 00:48:23,684 ERROR ru.centerinform.transport.backbone.schedule.SpaUpdateJob - [SPA] - Ошибка обновления SPA
+java.lang.IllegalStateException: Ответ от сервера  [https://spaupdate-nd.utm.egais.ru:4443/wsspaupdate/update/010060694075] - [403:]
+	at ru.centerinform.transport.util.f.a(HttpUtil.java:451)
+	at ru.centerinform.transport.backbone.schedule.SpaUpdateJob.a(SpaUpdateJob.java:89)
+	at sun.reflect.GeneratedMethodAccessor2020.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-11-11 00:48:38,597 INFO  org.springframework.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 6 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(6)-CONNECTED(6)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 90], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 44], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 8, completed tasks = 65193]
+2022-11-11 00:49:35,444 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:49:35,444 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:49:35,444 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:49:35,444 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:49:35,444 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:49:35,444 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:49:35,444 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:49:37,144 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:49:37,144 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:49:37,144 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:49:37,409 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:49:37,893 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:49:39,094 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-10 00:49:39 в статусах [2]
+2022-11-11 00:49:39,094 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Документы DOC_TYPE: [waybill, waybill_v2, waybill_v3, formbreginfo, form2reginfo, waybillact, waybillact_v2, waybillact_v3, waybillticket, ticket, waybill_v4, waybillAct_v4, ttnhistoryf2reg] удалены не будут.
+2022-11-11 00:49:39,110 INFO  ru.centerinform.transport.persist.service.ServerDocumentService - Удаление документов, скачанных ранее чем 2022-11-04 00:49:39 в статусах [2]
+2022-11-11 00:49:39,110 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Завершение задачи получения документов с сервера ЕГАИС
+2022-11-11 00:49:39,110 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи получения документов с сервера ЕГАИС по расписанию
+2022-11-11 00:49:39,390 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:51:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Начало задачи обмена документами с сервером ЕГАИС по расписанию
+2022-11-11 00:51:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Отправка данных на сервер ЕГАИС по расписанию
+2022-11-11 00:51:35,439 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Отправка данных на сервер ЕГАИС
+2022-11-11 00:51:35,439 INFO  ru.centerinform.transport.backbone.schedule.Publisher - Завершение задачи отправки документов на сервер ЕГАИС
+2022-11-11 00:51:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Завершение задачи отправки документов на сервера ЕГАИС по расписанию
+2022-11-11 00:51:35,439 INFO  ru.centerinform.transport.backbone.schedule.WSExchangeJob - Получение документов с сервера ЕГАИС по расписанию
+2022-11-11 00:51:35,439 INFO  ru.centerinform.transport.backbone.schedule.Receiver - [RESTful] Получение документов с сервера ЕГАИС
+2022-11-11 00:51:37,170 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получение документов с сервера ЕГАИС
+2022-11-11 00:51:37,170 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных чеков: [0]
+2022-11-11 00:51:37,170 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных запросов: [17]
+2022-11-11 00:51:37,404 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Счетчик непогашенных АСКП: [0]
+2022-11-11 00:51:37,888 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Запрос документов с сервера
+2022-11-11 00:51:45,017 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030xFBE6E46E-9B97-4AB4-9C69-B3BC13690AFF, path: [C:\UTM\transporter\bin\..\xml\ws\030xFBE6E46E-9B97-4AB4-9C69-B3BC13690AFF]
+2022-11-11 00:51:45,017 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [38a97ef0-d8b9-4fd6-91f3-62a31cacc6a4] FileId: [030xFBE6E46E-9B97-4AB4-9C69-B3BC13690AFF]
+2022-11-11 00:51:45,267 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [38a97ef0-d8b9-4fd6-91f3-62a31cacc6a4] FileId: [030xFBE6E46E-9B97-4AB4-9C69-B3BC13690AFF] сохранен в БД
+2022-11-11 00:51:46,608 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030xCE594D27-D086-4276-81A9-4DBE919F9322, path: [C:\UTM\transporter\bin\..\xml\ws\030xCE594D27-D086-4276-81A9-4DBE919F9322]
+2022-11-11 00:51:46,608 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [a227ec33-0cf7-408b-84a0-f96312c68327] FileId: [030xCE594D27-D086-4276-81A9-4DBE919F9322]
+2022-11-11 00:51:46,624 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [a227ec33-0cf7-408b-84a0-f96312c68327] FileId: [030xCE594D27-D086-4276-81A9-4DBE919F9322] сохранен в БД
+2022-11-11 00:51:48,044 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030x29FE5B9C-D9C9-4213-83CC-1594053F8208, path: [C:\UTM\transporter\bin\..\xml\ws\030x29FE5B9C-D9C9-4213-83CC-1594053F8208]
+2022-11-11 00:51:48,044 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [757a08f4-f336-44ea-882c-e04c434d2723] FileId: [030x29FE5B9C-D9C9-4213-83CC-1594053F8208]
+2022-11-11 00:51:48,387 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [757a08f4-f336-44ea-882c-e04c434d2723] FileId: [030x29FE5B9C-D9C9-4213-83CC-1594053F8208] сохранен в БД
+2022-11-11 00:51:49,510 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030x65CD3D49-83C2-4C46-B380-45136FD43F9D, path: [C:\UTM\transporter\bin\..\xml\ws\030x65CD3D49-83C2-4C46-B380-45136FD43F9D]
+2022-11-11 00:51:49,510 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [d853ab33-21a1-40d8-95e9-df25fda2c66a] FileId: [030x65CD3D49-83C2-4C46-B380-45136FD43F9D]
+2022-11-11 00:51:49,557 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [d853ab33-21a1-40d8-95e9-df25fda2c66a] FileId: [030x65CD3D49-83C2-4C46-B380-45136FD43F9D] сохранен в БД
+2022-11-11 00:51:50,789 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030xEFB72B43-AE9F-428B-ADEA-864455B6EBA7, path: [C:\UTM\transporter\bin\..\xml\ws\030xEFB72B43-AE9F-428B-ADEA-864455B6EBA7]
+2022-11-11 00:51:50,789 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [d853ab33-21a1-40d8-95e9-df25fda2c66a] FileId: [030xEFB72B43-AE9F-428B-ADEA-864455B6EBA7]
+2022-11-11 00:51:50,820 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [d853ab33-21a1-40d8-95e9-df25fda2c66a] FileId: [030xEFB72B43-AE9F-428B-ADEA-864455B6EBA7] сохранен в БД
+2022-11-11 00:51:52,131 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030x5CC732A8-05E9-4522-8E0F-516000FE2669, path: [C:\UTM\transporter\bin\..\xml\ws\030x5CC732A8-05E9-4522-8E0F-516000FE2669]
+2022-11-11 00:51:52,131 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [d853ab33-21a1-40d8-95e9-df25fda2c66a] FileId: [030x5CC732A8-05E9-4522-8E0F-516000FE2669]
+2022-11-11 00:51:52,677 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [d853ab33-21a1-40d8-95e9-df25fda2c66a] FileId: [030x5CC732A8-05E9-4522-8E0F-516000FE2669] сохранен в БД
+2022-11-11 00:51:54,268 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030x58E5A962-79E5-4C94-A2E7-0D47EF904A63, path: [C:\UTM\transporter\bin\..\xml\ws\030x58E5A962-79E5-4C94-A2E7-0D47EF904A63]
+2022-11-11 00:51:54,268 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [38a97ef0-d8b9-4fd6-91f3-62a31cacc6a4] FileId: [030x58E5A962-79E5-4C94-A2E7-0D47EF904A63]
+2022-11-11 00:51:54,284 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [38a97ef0-d8b9-4fd6-91f3-62a31cacc6a4] FileId: [030x58E5A962-79E5-4C94-A2E7-0D47EF904A63] сохранен в БД
+2022-11-11 00:51:55,532 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030x762DC24E-0FD5-427C-A8BD-D22DBAAAE726, path: [C:\UTM\transporter\bin\..\xml\ws\030x762DC24E-0FD5-427C-A8BD-D22DBAAAE726]
+2022-11-11 00:51:55,532 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [b06bb405-5e0e-48c8-a21c-1b91ba745bee] FileId: [030x762DC24E-0FD5-427C-A8BD-D22DBAAAE726]
+2022-11-11 00:51:55,563 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [b06bb405-5e0e-48c8-a21c-1b91ba745bee] FileId: [030x762DC24E-0FD5-427C-A8BD-D22DBAAAE726] сохранен в БД
+2022-11-11 00:51:56,873 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030x50C6CAD2-F387-46D2-B32A-9B28AB577FF1, path: [C:\UTM\transporter\bin\..\xml\ws\030x50C6CAD2-F387-46D2-B32A-9B28AB577FF1]
+2022-11-11 00:51:56,873 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [b5fb607c-142d-46f3-9990-99c78b0ae846] FileId: [030x50C6CAD2-F387-46D2-B32A-9B28AB577FF1]
+2022-11-11 00:51:56,920 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [b5fb607c-142d-46f3-9990-99c78b0ae846] FileId: [030x50C6CAD2-F387-46D2-B32A-9B28AB577FF1] сохранен в БД
+2022-11-11 00:51:58,277 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030xA5FFD0CE-6423-443C-8985-E1F417431CE0, path: [C:\UTM\transporter\bin\..\xml\ws\030xA5FFD0CE-6423-443C-8985-E1F417431CE0]
+2022-11-11 00:51:58,277 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [b5fb607c-142d-46f3-9990-99c78b0ae846] FileId: [030xA5FFD0CE-6423-443C-8985-E1F417431CE0]
+2022-11-11 00:51:58,293 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [b5fb607c-142d-46f3-9990-99c78b0ae846] FileId: [030xA5FFD0CE-6423-443C-8985-E1F417431CE0] сохранен в БД
+2022-11-11 00:51:59,822 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030x3A59E143-68BE-428C-9024-BA24E252EDF6, path: [C:\UTM\transporter\bin\..\xml\ws\030x3A59E143-68BE-428C-9024-BA24E252EDF6]
+2022-11-11 00:51:59,822 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [b5fb607c-142d-46f3-9990-99c78b0ae846] FileId: [030x3A59E143-68BE-428C-9024-BA24E252EDF6]
+2022-11-11 00:52:00,056 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [b5fb607c-142d-46f3-9990-99c78b0ae846] FileId: [030x3A59E143-68BE-428C-9024-BA24E252EDF6] сохранен в БД
+2022-11-11 00:52:01,038 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030xE03B433B-C93B-4473-9054-1584984CCE78, path: [C:\UTM\transporter\bin\..\xml\ws\030xE03B433B-C93B-4473-9054-1584984CCE78]
+2022-11-11 00:52:01,038 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [f0bcd0d3-9b76-435b-9e83-bffe4f062d67] FileId: [030xE03B433B-C93B-4473-9054-1584984CCE78]
+2022-11-11 00:52:01,070 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [f0bcd0d3-9b76-435b-9e83-bffe4f062d67] FileId: [030xE03B433B-C93B-4473-9054-1584984CCE78] сохранен в БД
+2022-11-11 00:52:02,271 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: FORM2REGINFO, fileId: 030xE3EBD751-C764-44FD-B391-358774978DA0, path: [C:\UTM\transporter\bin\..\xml\ws\030xE3EBD751-C764-44FD-B391-358774978DA0]
+2022-11-11 00:52:02,271 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [b2aab930-8109-4c68-acf9-2531ac1bc5bf] FileId: [030xE3EBD751-C764-44FD-B391-358774978DA0]
+2022-11-11 00:52:02,302 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [b2aab930-8109-4c68-acf9-2531ac1bc5bf] FileId: [030xE3EBD751-C764-44FD-B391-358774978DA0] сохранен в БД
+2022-11-11 00:52:04,626 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030x07997228-99CB-4377-93F5-EAA15E4613C9, path: [C:\UTM\transporter\bin\..\xml\ws\030x07997228-99CB-4377-93F5-EAA15E4613C9]
+2022-11-11 00:52:04,642 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [c72c283c-c1fc-4e99-aa99-06a2427d331f] FileId: [030x07997228-99CB-4377-93F5-EAA15E4613C9]
+2022-11-11 00:52:04,704 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [c72c283c-c1fc-4e99-aa99-06a2427d331f] FileId: [030x07997228-99CB-4377-93F5-EAA15E4613C9] сохранен в БД
+2022-11-11 00:52:05,812 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type: Ticket, fileId: 030x566BA150-D95F-47ED-BB9B-02ECA3A5F3BF, path: [C:\UTM\transporter\bin\..\xml\ws\030x566BA150-D95F-47ED-BB9B-02ECA3A5F3BF]
+2022-11-11 00:52:05,812 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Получен оптовый документ. ReplyId: [38a97ef0-d8b9-4fd6-91f3-62a31cacc6a4] FileId: [030x566BA150-D95F-47ED-BB9B-02ECA3A5F3BF]
+2022-11-11 00:52:05,859 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Документ ReplyId: [38a97ef0-d8b9-4fd6-91f3-62a31cacc6a4] FileId: [030x566BA150-D95F-47ED-BB9B-02ECA3A5F3BF] сохранен в БД
+2022-11-11 00:52:06,982 INFO  ru.centerinform.transport.backbone.schedule.Receiver - Анализ содержимого документа type
