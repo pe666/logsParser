@@ -2,10 +2,10 @@ error_counter = 0
 data = None
 next_line = False
 filename = input('Введите название файла: ')
-#with open(filename, encoding='utf-8') as fh:
-#   data = fh.read()
-#with open(filename, 'wb') as fh:
-#    fh.write(data.encode('cp1251'))
+with open(filename, encoding='utf-8') as fh:
+   data = fh.read()
+with open(filename, 'wb') as fh:
+    fh.write(data.encode('cp1251'))
 with open(filename, 'r', encoding='cp1251') as f:
     for line in f.readlines():
         if next_line:
